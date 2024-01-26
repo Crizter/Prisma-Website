@@ -23,7 +23,30 @@
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
-  
+  <style>
+    /* CSS FOR VINTGE PRISMA */
+    .navbar-nav li.dropdown:hover .dropdown-menu {
+        display: block;
+    }
+    
+    .dropdown-menu {
+        display: none; 
+        position: absolute;
+        background-color: #ffffff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    }
+    
+    .dropdown-item {
+        color: #333333;
+    }
+    
+    .dropdown-item:hover {
+        background-color: #f8f9fa; 
+        color: #333333; 
+    }
+    
+    
+      </style>
   
 </head>
 <body>
@@ -56,6 +79,21 @@
                     <a class="nav-link link text-white display-4" href="https://drive.google.com/file/d/1AZVLZfq_1j-ymOy4JRe7crxEnkYCA3yg/view?usp=drivesdk" target="_blank">
                         Events</a>
                 </li>
+                   <!-- Dropdown for Vintage Prisma -->
+                   <li class="nav-item dropdown">
+                    <a class="nav-link link text-white display-4 dropdown-toggle" href="#" id="vintageDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Vintage Prisma
+                    </a>
+                    <!-- Dropdown items -->
+                    <div class="dropdown-menu" aria-labelledby="vintageDropdown">
+                        <a class="dropdown-item" href="#">2023</a>
+                        <a class="dropdown-item" href="#">2022</a>
+                        <a class="dropdown-item" href="#">Corona</a>
+                        <a class="dropdown-item" href="#">2019</a>
+                        <a class="dropdown-item" href="#">2018</a>
+                    </div>
+                </li>
+
                 <li class="nav-item"><a class="nav-link link text-white display-4" href="page3.html" target="_blank">Events Rulebook</a></li><li class="nav-item"><a class="nav-link link text-white display-4" href="page2.html">
                    
                         </a>
